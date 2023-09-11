@@ -1,18 +1,76 @@
 body{
-    background-color: rgb(87, 115, 123);
+    background-color: rgb(48, 131, 154);
 }
 
 #header
 {
     background-color: white;
-    color: black;
-    padding: 5%
-    margin: 100px
+    color: rgb(51, 133, 168);
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    
 }
+
+a{
+    text-decoration:none;
+    color: rgb(52, 133, 165);
+    font-size: larger;
+    padding: 6px;
+    border-radius: 5px;
+
+
+}
+
+a:hover{
+    color: rgb(92, 92, 168);
+    background-color: orange;
+    font-size: x-large;
+    padding: 10px;
+}
+/* div for grouping items together */
+/* command slash for comments */
+
 
 #landingpage
 {
-    background-color: black;
-    padding: 3%
-    margin: 100px
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    display: flex;
+    height: 75%;
+    align-items:start;
+    just content:left:  ;
+
+
 }
+
+.title
+{color: rgb(23, 23, 42);
+font font-size: 100px;
+padding:20px;
+}
+
+h1
+{color: rgb(57, 85, 149);
+ font-size: 75px;
+ font weight: 75px;
+}
+
+li
+{font-size: 30px;
+color:rgb(255, 94, 0);
+padding: 3px;
+margin-left: 1px;
+flex-direction: row;
+font-style:inherit;}
+
+h5
+{align-items:center;}
